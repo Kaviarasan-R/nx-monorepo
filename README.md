@@ -28,4 +28,9 @@ To remove a lib:
 nx g @nx/workspace:remove <project> --force-remove
 ```
 
+## Key Notes
+
+By default, Nx will load any environment variables you place in the following files: [Environment variables](https://nx.dev/recipes/tips-n-tricks/define-environment-variables#define-environment-variables)
+For example we use, .env.serve.development & .env.serve.production
+
 Targets can be defined in the `package.json` or `projects.json`. Learn more [in the docs](https://nx.dev/features/run-tasks).
