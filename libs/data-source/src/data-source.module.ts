@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { DataSourceService } from './data-source.service';
 
 @Module({
-  providers: [DataSourceService],
-  exports: [DataSourceService],
+  controllers: [],
+  providers: [],
+  exports: [],
 })
 export class DataSourceModule {}

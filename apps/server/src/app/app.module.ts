@@ -6,7 +6,7 @@ import { AppService } from './app.service';
 import { DataSourceModule } from '@nx-monorepo/data-source';
 
 @Module({
-  imports: [],
+  imports: [DataSourceModule],
   controllers: [AppController],
   providers: [AppService],
 })
