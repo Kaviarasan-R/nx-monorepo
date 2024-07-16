@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "esModuleInterop": true,
+    "paths": {
+      "@nx-monorepo/data-source": ["libs/data-source/src/index.ts"],
+      "@nx-monorepo/utils": ["libs/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
